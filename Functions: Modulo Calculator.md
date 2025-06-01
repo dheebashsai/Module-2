@@ -11,9 +11,21 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
-
-Add code Here
+    def result(a, b):
+        mod = a % b
+        print("The result of", a, "%", b, "is:", mod)
+    
+    
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    
+    result(num1, num2)
 
 ## Output
+Enter the first number: 29
+Enter the second number: 5
+The result of 29 % 5 is: 4
+
 
 ## Result
+The program for Modulo calculator is executed successfully
